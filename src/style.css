@@ -1,0 +1,76 @@
+.logo {
+  font-family: "Fredoka", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffc72c;
+  text-shadow: 2px 2px 0 #c8102e;
+  padding-left: 50px; 
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: white;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* ✅ Auto-spaces items */
+  background-color: white;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .nav-links a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.order-btn {
+  background-color: #ffc107;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.hero,
+.promo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+  margin: 70px 0;
+}
+
+.hero-image img,
+.promo-image img {
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.hero-text,
+.promo-text {
+  max-width: 400px;
+}
+
+.cta-btn {
+  background-color: #ffc107;
+  color: black;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 1rem;
+  cursor: pointer;
+}
